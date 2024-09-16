@@ -2,7 +2,7 @@
 
 # List of Docker images to push to the Private Registry
 
-image_list=("redhat/ubi8:8.10" "ubuntu:20.04" "httpd:2.4" "registry:2.8.3" "alpine:3.20.3")
+image_list=("redhat/ubi8:8.10" "ubuntu:20.04" "httpd:2.4" "registry:2.8.3" )
 
 # Define the necessary values
 
