@@ -1,5 +1,9 @@
 # utilities
-This project contains scripts to help with starting and stopping a Private Registry, adding and removing Docker images from a Private Registry, etc...
+This project contains scripts to help with:
+
+a. Starting and stopping a Private Registry
+b. Adding Docker images to a Private Registry
+c. Removing Docker images from a Private Registry
 
 Make sure to use this command for each script in order to fix any formatting issues between Windows and Linux
 
