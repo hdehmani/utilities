@@ -1,5 +1,5 @@
 # utilities
-This project contains utilities scripts, code, etc.
+This project contains scripts, code, etc.
 
 Make sure to use this command for each script in order to fix any formatting issues between Windows and Linux
 
