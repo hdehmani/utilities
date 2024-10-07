@@ -37,3 +37,5 @@ Make sure to use this command for each script in order to fix any formatting iss
 7. Use the "**remove.image.from.private.registry.sh**" script to remove a list of images from the Private Registry
 
 8. Use the "**push.image.to.private.registry.sh**" script to push a list of images to the Private Registry
+
+9. The utilities project is accessed as follows: /mnt/c/MyDevelopment/workspace/utilities/
