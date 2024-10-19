@@ -35,9 +35,7 @@ Make sure to use this command for each script in order to fix any formatting iss
 
 - Use the "**initialize.environment.sh**" script to remove and reinstall all the necessary Docker images to the Private Registry
 
-- Make sure to use this command so that the environment variables are added to the shell executing the "**initialize.environment.sh**" script (The "." = source):
-
-&emsp;&emsp;**. ./initialize.environment.sh**
+- Make sure to use this command so that the environment variables are added to the shell executing the "**initialize.environment.sh**" script (The "." = source): "**. ./initialize.environment.sh**"
 
 - You can also use each script individual to achieve different results
 
