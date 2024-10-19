@@ -1,9 +1,14 @@
 #!/bin/bash
 
+SCRIPT_NAME=start.private.registry.sh
+
+echo "==================================================="
+echo "Start script = $SCRIPT_NAME"
+
 # Define the necessary values to use
 
-registry_image_name=registry:2.8.3
-registry_container_name=dehmani-registry
+registry_image_name=$REGISTRY_IMAGE_NAME
+registry_container_name=$REGISTRY_CONTAINER_NAME
 registry_host_port=5000
 registry_container_port=5000
 
@@ -18,6 +23,10 @@ docker container remove $registry_container_name
 # Start the private registry in the background
 
 docker run -itd -p $registry_host_port:$registry_container_port --name $registry_container_name $registry_image_name
+
+echo "End script = $SCRIPT_NAME"
+echo "==================================================="
+
 
 # NOTES:
 

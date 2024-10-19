@@ -1,8 +1,13 @@
 #!/bin/bash
 
+SCRIPT_NAME=remove.image.from.private.registry.sh
+
+echo "==================================================="
+echo "Start script = $SCRIPT_NAME"
+
 # List of Docker images to remove from the Private Registry
 
-image_list=("redhat/ubi8:8.10" "ubuntu:20.04" "httpd:2.4" "registry:2.8.3")
+image_list=("redhat/ubi8:8.10" "ubuntu:20.04" "httpd:2.4")
 
 # Define the necessary values
 
@@ -20,4 +25,8 @@ for image_name in ${image_list[@]}; do
     docker image remove $registry_host_name:$registry_host_port/$image_name
 
 done
+
+echo "End script = $SCRIPT_NAME"
+echo "==================================================="
+
 

@@ -1,12 +1,17 @@
 #!/bin/bash
 
+SCRIPT_NAME=load.local.image.from.archive.sh
+
+echo "==================================================="
+echo "Start script = $SCRIPT_NAME"
+
 # Docker image files folder
 
-image_folder="/mnt/c/MyDevelopment/downloads/Docker images/work-docker-images"
+echo "Using the docker images directory = $DOCKER_IMAGES_DIR"
 
 # Change to the Docker image files folder
 
-cd "$image_folder"
+cd $DOCKER_IMAGES_DIR
 
 # Let's list the files
 
@@ -25,4 +30,7 @@ for image_file_name in ${image_file_list[@]}; do
     docker image load --input $image_file_name
 
 done
+
+echo "End script = $SCRIPT_NAME"
+echo "==================================================="
 

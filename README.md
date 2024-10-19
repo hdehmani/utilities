@@ -1,4 +1,5 @@
 # utilities
+
 # This project contains scripts to help with:
 
 - Starting and stopping a Private Registry
@@ -9,16 +10,15 @@ Make sure to use this command for each script in order to fix any formatting iss
 
 **sed -i -e 's/\r$//' some.script.name.sh**
 
-1. **remove.local.image.sh**: Removes all the listed images from the local machine
+- **remove.local.image.sh**: Removes all the listed images from the local machine (can specify argument remove_registry_docker_image)
 
-2. **load.image.from.archive.sh**: Loads the listed images from the listed archive file to the local machine
+- **load.image.from.archive.sh**: Loads the listed images from the listed archive file to the local machine
 
-3. **start.private.registry.sh**: Starts a Private Registry
+- **start.private.registry.sh**: Starts a Private Registry
 
-4. **remove.image.from.private.registry.sh**: Removes a list of images from the Private Registry
+- **remove.image.from.private.registry.sh**: Removes a list of images from the Private Registry
 
-5. **push.image.to.private.registry.sh**: Pushes a list of images to the Private Registry
-
+- **push.image.to.private.registry.sh**: Pushes a list of images to the Private Registry
 
 ## Steps to follow:
 
