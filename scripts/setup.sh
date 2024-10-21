@@ -18,6 +18,7 @@ echo "Start script = $SCRIPT_NAME"
 
 export DOCKER_IMAGES_DIR=/mnt/c/MyDevelopment/MyProjects/downloads/docker_images
 export GMSEC_API_DIR=/mnt/c/MyDevelopment/MyProjects/GMSEC
+export JAVA_DIR=/mnt/c/MyDevelopment/MyProjects/downloads/Java
 export GMSEC_WORKSPACE_DIR=/mnt/c/MyDevelopment/MyProjects/2024/gmsec_wsp_2024
 export REGISTRY_CONTAINER_NAME=dehmani-registry
 export REGISTRY_IMAGE_NAME=registry:2.8.3
